@@ -1,58 +1,67 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Pessoal | SENAI</title>
+    <title>Dashboard Pessoa | SENAI</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <div class="dashboard">
+    <div class="Dashboard">
         <aside class="sidebar" id="sidebar">
             <div class="sidebar-header">
                 <div class="logo">
-                    <i class="fas fa-chart-line"></i>
+                    <I class="fas fa-chart-line"> </I>
                     <span>AdminPro</span>
                 </div>
-                <button class="sidebar-toggle" id="sidebar-toggle">
+                <button class="sidebat-toggle" id="sidebar-toggle">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
-
             <nav class="sidebar-nav">
                 <ul>
                     <li class="active">
                         <a href="#">
-                            <i class="fas fa-tachometer-alt"></i>
+                            <i class="fas fa-tachometer-alt">
+                            </i>
                             <span>Dashboard</span>
                         </a>
                     </li>
+
                     <li class="active">
                         <a href="#">
-                            <i class="fas fa-users"></i>
-                            <span>Usuários</span>
+                            <i class="fas fa-users">
+                            </i>
+                            <span>Usuarios</span>
                         </a>
                     </li>
-                    <li class="active">
+
+                     <li class="active">
                         <a href="#">
-                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-shopping-cart">
+                            </i>
                             <span>Vendas</span>
                         </a>
                     </li>
-                    <li class="active">
+
+                     <li class="active">
                         <a href="#">
-                            <i class="fas fa-chart-bar"></i>
-                            <span>Relatórios</span>
+                            <i class="fas fa-chart-bar">
+                            </i>
+                            <span>Relatorio</span>
                         </a>
                     </li>
-                    <li class="active">
+
+                     <li class="active">
                         <a href="#">
-                            <i class="fas fa-cog"></i>
+                            <i class="fas fa-cog">
+                            </i>   
                             <span>Configurações</span>
-                        </a>
+                        </a>   
                     </li>
+                    
                 </ul>
             </nav>
 
@@ -63,8 +72,7 @@
                 </a>
             </div>
         </aside>
-        <!-- Conteúdo Principal -->
-         <div class="main-content">
+        <div class="main-content">
             <header class="topbar">
                 <div class="search-area">
                     <i class="fas fa-search"></i>
@@ -73,60 +81,69 @@
 
                 <div class="user-area">
                     <button class="dark-mode-toogle" id="darkModeToggle">
-                        <i class="fas fa-moon"></i>
+                       <i class="fas fa-moon"></i>
                     </button>
 
                     <div class="notification">
-                        <i class="fas fa-bell"></i>
-                        <span class="badge"></span>
+                        <i class="fas da-bell"></i>
+                        <span class="badge">10</span>
                     </div>
 
                     <div class="user-profile">
-                        <img src="https://diariodepernambuco.com.br/dpmais/wp-content/uploads/2025/11/Lionel-Messi.webp"width="300">
-                        <span>yeferson alexander</span>
-                        <i class="fas fa-chevron-down"></i>
+                        <img src="https://i.pinimg.com/736x/34/7d/d3/347dd3eaeb27ad45fde8760dc7272c2f.jpg" width="450" alt="">
+                        <span>Pedro Augusto</span>
+                        <i class="fa-chervron-down"></i>
                     </div>
                 </div>
             </header>
+
             <main>
-                <div class="pege-header">
-                    <h1>Dashboard</h1>
-                    <p>bem-vindo de volta, yeferson alexander! aqui esta o resumo do seu negocio</p>
-                </div>
-                <div class="cars-grid">
-                    
-                    
-                    <div class="card">
-                        <div class="card-icon">
-                            <i class="fa-dollar-fas fa-user"></i>
-                        </div>
-                        <div class="card-info">
-                            <h3>clientes</h3>
-                            <p class="value">1.284</p>
-                            <span class="trend up">+18,0%</span>
-                        </div>
-                        <div class="card">
-                        <div class="card-icon">
-                            <i class="fa-dollar-fas fa-shooping-bag"></i>
-                        </div>
-                        <div class="card-info">
-                            <h3>Vendas</h3>
-                            <p class="value">21,610%</p>
-                            <span class="trend up">+18,2</span>
-                        </di>
-                        </div>
-                        <div class="card">
-                        <div class="card-icon">
-                            <i class="fa-dollar-fas fa-star"></i>
-                        </div>
-                        <div class="card-info">
-                            <h3>conversão</h3>
-                            <p class="value">25,100%</p>
-                            <span class="trend up">+20,7%</span>
-                        </di>
+              <div class="page-header">
+                <h1>Dashboard</h1>
+                <p>Bem-vindo de volta, Pedro! Aqui está o resumo do seu negócio</p>
+              </div>
+
+              <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-dollar-sign"></i>
                     </div>
-                </div>
+                    <div class="card-info">
+                        <h3>Faturamento</h3>
+                        <p class="value">R$ 47.892</p>
+                        <span class="trend up">+10,7%</span>
+                    </div>
+                     <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="card-info">
+                        <h3>Clientes</h3>
+                        <p class="value">7.670</p>
+                        <span class="trend up">+17,0%</span>
+                    </div>
+                    
+                    </div> <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <div class="card-info">
+                        <h3>Vendas</h3>
+                        <p class="value">27,610</p>
+                        <span class="trend up">+7,0%</span>
+                 </div>
+                  </div> <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="card-info">
+                        <h3>Conversão</h3>
+                        <p class="value">47,9%</p>
+                        <span class="trend up">+13,6%</span>
+                 </div>
+              </div>
             </main>
-         </div>
-    </div>    
+        </div>
+    </div>
 </body>
+</html>
